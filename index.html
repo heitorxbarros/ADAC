@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Avaliando a universalização do Ensino Fundamental - PNADc 2023</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Heitor Xavier Barros" />
+    <script src="libs/header-attrs-2.25/header-attrs.js"></script>
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+.title[
+# Avaliando a universalização do Ensino Fundamental - PNADc 2023
+]
+.subtitle[
+## Análise de Dados Amostrais Complexos
+]
+.author[
+### Heitor Xavier Barros
+]
+.institute[
+### ENCE
+]
+
+---
+
+class: center, middle
+
+
+<div>
+<style type="text/css">.xaringan-extra-logo {
+width: 100px;
+height: 128px;
+z-index: 0;
+background-image: url(logo.png);
+background-size: contain;
+background-repeat: no-repeat;
+position: absolute;
+top:1em;right:1em;
+}
+</style>
+<script>(function () {
+  let tries = 0
+  function addLogo () {
+    if (typeof slideshow === 'undefined') {
+      tries += 1
+      if (tries < 10) {
+        setTimeout(addLogo, 100)
+      }
+    } else {
+      document.querySelectorAll('.remark-slide-content:not(.title-slide):not(.inverse):not(.hide_logo)')
+        .forEach(function (slide) {
+          const logo = document.createElement('div')
+          logo.classList = 'xaringan-extra-logo'
+          logo.href = null
+          slide.appendChild(logo)
+        })
+    }
+  }
+  document.addEventListener('DOMContentLoaded', addLogo)
+})()</script>
+</div>
+
+
+
+# Introdução
+
+---
+### Motivação
+
+Em 2024, completam-se 10 anos da aprovação da Lei N.° 13.005, que trata do **Plano Nacional de Educação (PNE)**. O PNE estabelece **10 diretrizes** e define **20 metas** para a educação em todo o território nacional, além de propor estratégias para auxiliar no cumprimento das metas. A Lei N.° 13.005 tem vigência de 10 anos e, portanto, é de interesse público aferir a evolução no cumprimento das metas estabelecidas.
+&lt;/br&gt;
+A **Meta 2**, que refere-se a universalização do acesso ao ensino fundamental de 9 anos para toda a população de 6 a 14 anos, é essencial para assegurar o acesso equitativo à educação fundamental, bem como para promover a conclusão dessa etapa no tempo adequado. O Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP) estabeleceu dois indicadores como formas de medir avanços nesta meta. Eles são:
+* Indicador 2A -Percentual de pessoas de 6 a 14 anos que frequentam ou que já concluíram o ensino fundamental (taxa de escolarização líquida ajustada);
+*  Indicador 2B - Percentual de pessoas de 16 anos com pelo menos o Ensino Fundamental concluído.
+
+.footer[
+.small[**Meta 2**: universalizar o ensino fundamental de 9 (nove) anos para toda a população de 6 (seis) a 14 (quatorze) anos e garantir que pelo menos 95% (noventa e cinco por cento) dos alunos concluam essa etapa na idade recomendada, até o último ano de vigência deste PNE.]
+]
+
+---
+### Objetivo
+
+No presente trabalho propõe-se a avaliar o cumprimento da **Meta 2** do PNE, com base em testes de hipótese usando os indicadores 2A e 2B. 
+Para investigar a execução dessa meta, utilizaremos dados da **Pesquisa Nacional por Amostra de Domicílios Contínua (PNAD Contínua)**, uma fonte abrangente de informações socioeconômicas no contexto brasileiro. A escolha pela PNAD Contínua permitirá uma análise robusta, considerando a complexidade amostral inerente a pesquisas desse porte. Além disso, como a PNAD Contínua é citada na legislação como uma das referências para as metas previstas, seu uso permitirá futuras comparações com resultados oficiais.
+&lt;/br&gt;
+Nossa abordagem metodológica se concentrará no uso de testes de hipótese para dados amostrais, considerando as características específicas do plano amostral da PNAD Contínua. Dessa forma, pretendemos avaliar se as diferenças observadas nos indicadores educacionais ao longo do tempo são estatisticamente significativas, indicando avanços ou retrocessos na realização da Meta 2 do PNE. Como objetivo secundário, buscamos avaliar se há disparidades nos resultados considerando características sociodemográficas.
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"ratio": "16:9",
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

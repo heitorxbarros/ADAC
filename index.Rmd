@@ -1,0 +1,66 @@
+---
+title: "Avaliando a universalização do Ensino Fundamental - PNADc 2023"
+subtitle: "Análise de Dados Amostrais Complexos"
+author: "Heitor Xavier Barros"
+institute: "ENCE"
+date: ""
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+    css: xaringan-themer.css
+---
+class: center, middle
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_mono_accent(
+  base_color = "#35338f",base_font_size = "23px",
+  header_font_google = google_font("Josefin Sans"),
+  text_font_google   = google_font("Montserrat", "300", "300i"),
+  code_font_google   = google_font("Fira Mono"),
+  extra_css = list(
+  ".small" = list("font-size" = "70%"),
+  ".smaller-code .remark-code" = list("font-size" = "60%")
+)
+)
+```
+
+```{r xaringan-logo, echo=FALSE}
+xaringanExtra::use_logo(
+  image_url = "logo.png",
+  position = xaringanExtra::css_position(top = "1em", right = "1em"),
+  width = "100px"
+)
+```
+
+```{r setup, include=FALSE}
+library(PNADcIBGE)
+variaveis <- readr::read_csv("variaveis.csv")
+```
+
+# Introdução
+
+---
+### Motivação
+
+Em 2024, completam-se 10 anos da aprovação da Lei N.° 13.005, que trata do **Plano Nacional de Educação (PNE)**. O PNE estabelece **10 diretrizes** e define **20 metas** para a educação em todo o território nacional, além de propor estratégias para auxiliar no cumprimento das metas. A Lei N.° 13.005 tem vigência de 10 anos e, portanto, é de interesse público aferir a evolução no cumprimento das metas estabelecidas.
+</br>
+A **Meta 2**, que refere-se a universalização do acesso ao ensino fundamental de 9 anos para toda a população de 6 a 14 anos, é essencial para assegurar o acesso equitativo à educação fundamental, bem como para promover a conclusão dessa etapa no tempo adequado. O Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP) estabeleceu dois indicadores como formas de medir avanços nesta meta. Eles são:
+* Indicador 2A -Percentual de pessoas de 6 a 14 anos que frequentam ou que já concluíram o ensino fundamental (taxa de escolarização líquida ajustada);
+*  Indicador 2B - Percentual de pessoas de 16 anos com pelo menos o Ensino Fundamental concluído.
+
+.footer[
+.small[**Meta 2**: universalizar o ensino fundamental de 9 (nove) anos para toda a população de 6 (seis) a 14 (quatorze) anos e garantir que pelo menos 95% (noventa e cinco por cento) dos alunos concluam essa etapa na idade recomendada, até o último ano de vigência deste PNE.]
+]
+
+---
+### Objetivo
+
+No presente trabalho propõe-se a avaliar o cumprimento da **Meta 2** do PNE, com base em testes de hipótese usando os indicadores 2A e 2B. 
+Para investigar a execução dessa meta, utilizaremos dados da **Pesquisa Nacional por Amostra de Domicílios Contínua (PNAD Contínua)**, uma fonte abrangente de informações socioeconômicas no contexto brasileiro. A escolha pela PNAD Contínua permitirá uma análise robusta, considerando a complexidade amostral inerente a pesquisas desse porte. Além disso, como a PNAD Contínua é citada na legislação como uma das referências para as metas previstas, seu uso permitirá futuras comparações com resultados oficiais.
+</br>
+Nossa abordagem metodológica se concentrará no uso de testes de hipótese para dados amostrais, considerando as características específicas do plano amostral da PNAD Contínua. Dessa forma, pretendemos avaliar se as diferenças observadas nos indicadores educacionais ao longo do tempo são estatisticamente significativas, indicando avanços ou retrocessos na realização da Meta 2 do PNE. Como objetivo secundário, buscamos avaliar se há disparidades nos resultados considerando características sociodemográficas.

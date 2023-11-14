@@ -1,0 +1,177 @@
+﻿Código,Nome da variável,Unidade estatística,Forma de representação,Domínio
+PEED0001,Alfabetização,pessoa,categoria,Educação
+PETR0063,Alternativas para trabalhar mais horas,pessoa,categoria,Trabalho
+PECP0008,Ano de nascimento,pessoa,número,Características da pessoa
+PETR0083,Associação a sindicato,pessoa,categoria,Trabalho
+PETR0104,Atividade principal do negócio ou empresa do trabalho principal,pessoa,código,Trabalho
+PETR0105,Atividade principal do negócio ou empresa do trabalho principal,pessoa,texto,Trabalho
+PETR0069,Atividade principal do negócio ou empresa do trabalho secundário,pessoa,texto,Trabalho
+PEED0013,"Conclusão com aprovação do primeiro ano, semestre ou série do curso frequentado anteriormente",pessoa,categoria,Educação
+PEED0008,Conclusão de outro curso superior de graduação,pessoa,categoria,Educação
+PEED0016,Conclusão do curso frequentado anteriormente,pessoa,categoria,Educação
+DOCA0004,Condição de ocupação,domicílio,categoria,Características do domicílio
+PERE0009,Condição de recebimento somente em benefícios,pessoa,categoria,Rendimento
+PERE0038,Condição de recebimento somente em benefícios no trabalho secundário,pessoa,categoria,Rendimento
+PERE0064,Condição de recebimento somente em benefícios nos outros trabalhos,pessoa,categoria,Rendimento
+PETR0109,Condição de servidor público estatutário no trabalho principal,pessoa,categoria,Trabalho
+PETR0015,Condição de servidor público estatutário no trabalho secundário,pessoa,categoria,Trabalho
+PECP0004,Condição no domicílio,pessoa,categoria,Características da pessoa
+PETR0111,Contribuição para instituto de previdência no trabalho principal,pessoa,categoria,Trabalho
+PETR0017,Contribuição para instituto de previdência no trabalho secundário,pessoa,categoria,Trabalho
+PETR0056,Contribuição para instituto de previdência nos outros trabalhos,pessoa,categoria,Trabalho
+PECP0005,Cor ou raça,pessoa,categoria,Características da pessoa
+PEED0004,Curso frequentado,pessoa,categoria,Educação
+PEED0010,Curso mais elevado frequentado anteriormente,pessoa,categoria,Educação
+PECP0006,Dia de nascimento,pessoa,número,Características da pessoa
+PETR0091,Disponibilidade para começar a trabalhar,pessoa,categoria,Trabalho
+PETR0068,Disponibilidade para começar trabalho secundário,pessoa,categoria,Trabalho
+PETR0062,Disponibilidade para trabalhar mais horas do que as normalmente trabalhadas na semana,pessoa,categoria,Trabalho
+PEED0019,Duração do curso frequentado,pessoa,categoria,Educação
+PEED0018,Duração do curso frequentado anteriormente,pessoa,categoria,Educação
+PETR0107,Esfera do setor público do trabalho principal,pessoa,categoria,Trabalho
+PETR0013,Esfera do setor público do trabalho secundário,pessoa,categoria,Trabalho
+PETR0005,Existência de afastamento temporário de trabalho remunerado,pessoa,categoria,Trabalho
+PETR0016,"Existência de ajuda não remunerada, de morador do domicílio ou parente, no trabalho principal",pessoa,categoria,Trabalho
+PETR0003,Existência de atividade ocasional remunerada,pessoa,categoria,Trabalho
+PETR0110,Existência de carteira de trabalho assinada no trabalho principal,pessoa,categoria,Trabalho
+PETR0052,Existência de carteira de trabalho assinada no trabalho secundário,pessoa,categoria,Trabalho
+PERE0020,"Existência de desconto por atraso, falta ou por adiantamento de salário, no trabalho principal",pessoa,categoria,Rendimento
+PERE0045,"Existência de desconto por atraso, falta ou por adiantamento de salário, no trabalho secundário",pessoa,categoria,Rendimento
+PETR0089,Existência de providência para conseguir outro trabalho no período de 30 dias,pessoa,categoria,Trabalho
+PETR0075,Existência de providência para conseguir trabalho no período de 30 dias,pessoa,categoria,Trabalho
+PETR0078,Existência de providência para conseguir trabalho no período de 335 dias,pessoa,categoria,Trabalho
+PETR0045,Existência de registro no CNPJ do negócio ou empresa,pessoa,categoria,Trabalho
+PERE0010,Existência de rendimento bruto do trabalho principal,pessoa,categoria,Rendimento
+PERE0046,Existência de rendimento bruto do trabalho secundário,pessoa,categoria,Rendimento
+PERE0065,Existência de rendimento bruto dos outros trabalhos,pessoa,categoria,Rendimento
+PERE0015,"Existência de rendimento bruto, em dinheiro, do trabalho principal",pessoa,valor em reais,Rendimento
+PERE0072,"Existência de rendimento bruto, em dinheiro, do trabalho principal",pessoa,categoria,Rendimento
+PERE0047,"Existência de rendimento bruto, em dinheiro, do trabalho secundário",pessoa,categoria,Rendimento
+PERE0066,"Existência de rendimento bruto, em dinheiro, dos outros trabalhos",pessoa,categoria,Rendimento
+PERE0016,"Existência de rendimento bruto, em produtos ou mercadorias, do trabalho principal",pessoa,categoria,Rendimento
+PERE0049,"Existência de rendimento bruto, em produtos ou mercadorias, do trabalho secundário",pessoa,categoria,Rendimento
+PERE0069,"Existência de rendimento bruto, em produtos ou mercadorias, dos outros trabalhos",pessoa,categoria,Rendimento
+PERE0001,Existência de rendimento bruto mensal habitual do trabalho principal,pessoa,categoria,Rendimento
+PERE0031,Existência de rendimento bruto mensal habitual do trabalho secundário,pessoa,categoria,Rendimento
+PERE0057,Existência de rendimento bruto mensal habitual dos outros trabalhos,pessoa,categoria,Rendimento
+PERE0008,"Existência de rendimento bruto mensal habitual, em benefícios, do trabalho principal",pessoa,categoria,Rendimento
+PERE0037,"Existência de rendimento bruto mensal habitual, em benefícios, do trabalho secundário",pessoa,categoria,Rendimento
+PERE0076,"Existência de rendimento bruto mensal habitual, em benefícios, dos outros trabalhos",pessoa,categoria,Rendimento
+PERE0002,"Existência de rendimento bruto mensal habitual, em dinheiro, do trabalho principal",pessoa,categoria,Rendimento
+PERE0032,"Existência de rendimento bruto mensal habitual, em dinheiro, do trabalho secundário",pessoa,categoria,Rendimento
+PERE0058,"Existência de rendimento bruto mensal habitual, em dinheiro, dos outros trabalhos",pessoa,categoria,Rendimento
+PERE0005,"Existência de rendimento bruto mensal habitual, em produtos ou mercadorias, do trabalho principal",pessoa,categoria,Rendimento
+PERE0035,"Existência de rendimento bruto mensal habitual, em produtos ou mercadorias, do trabalho secundário",pessoa,categoria,Rendimento
+PERE0061,"Existência de rendimento bruto mensal habitual, em produtos ou mercadorias, dos outros trabalhos",pessoa,categoria,Rendimento
+PERE0022,"Existência de rendimentos adicionais, das férias, do trabalho principal",pessoa,categoria,Rendimento
+PERE0041,"Existência de rendimentos adicionais, das férias, do trabalho secundário",pessoa,categoria,Rendimento
+PERE0025,"Existência de rendimentos adicionais, de bonificações e participação nos lucros, do trabalho principal",pessoa,categoria,Rendimento
+PERE0044,"Existência de rendimentos adicionais, de bonificações e participação nos lucros, do trabalho secundário",pessoa,categoria,Rendimento
+PERE0023,"Existência de rendimentos adicionais, de comissões, do trabalho principal",pessoa,categoria,Rendimento
+PERE0042,"Existência de rendimentos adicionais, de comissões, do trabalho secundário",pessoa,categoria,Rendimento
+PERE0024,"Existência de rendimentos adicionais, de horas extras, do trabalho principal",pessoa,categoria,Rendimento
+PERE0043,"Existência de rendimentos adicionais, de horas extras, do trabalho secundário",pessoa,categoria,Rendimento
+PERE0021,"Existência de rendimentos adicionais, de 13º, 14º salário, do trabalho principal",pessoa,categoria,Rendimento
+PERE0040,"Existência de rendimentos adicionais, de 13º, 14º salário, do trabalho secundário",pessoa,categoria,Rendimento
+PERE0019,Existência de rendimentos adicionais do trabalho principal,pessoa,categoria,Rendimento
+PERE0039,Existência de rendimentos adicionais do trabalho secundário,pessoa,categoria,Rendimento
+PETR0065,Existência de sócio na empresa,pessoa,categoria,Trabalho
+PETR0004,Existência de trabalho não remunerado na atividade remunerada de morador do domicílio,pessoa,categoria,Trabalho
+PETR0092,Existência de trabalho remunerado em algum período da vida,pessoa,categoria,Trabalho
+PETR0001,Existência de trabalho remunerado em dinheiro,pessoa,categoria,Trabalho
+PETR0002,"Existência de trabalho remunerado em produtos, mercadorias ou benefícios",pessoa,categoria,Trabalho
+PETR0093,"Existência, em algum período da vida, de participação não remunerada em atividade remunerada de membro do domicílio",pessoa,categoria,Trabalho
+PEED0002,Frequência escolar,pessoa,categoria,Educação
+PEED0009,Frequência escolar anterior,pessoa,categoria,Educação
+PETR0021,Horas a mais que as normalmente trabalhadas por semana no trabalho secundário,pessoa,categoria,Trabalho
+PETR0058,Horas a mais que as normalmente trabalhadas por semana nos outros trabalhos,pessoa,categoria,Trabalho
+PETR0022,Horas a menos que as normalmente trabalhadas por semana no trabalho secundário,pessoa,categoria,Trabalho
+PETR0059,Horas a menos que as normalmente trabalhadas por semana nos outros trabalhos,pessoa,número,Trabalho
+PETR0064,Horas adicionais semanais disponíveis para trabalhar,pessoa,número,Trabalho
+PETR0055,Horas efetivamente trabalhadas por semana no trabalho secundário,pessoa,número,Trabalho
+PETR0060,Horas efetivamente trabalhadas por semana nos outros trabalhos,pessoa,número,Trabalho
+PETR0020,Horas normalmente trabalhadas por semana no trabalho secundário,pessoa,número,Trabalho
+PETR0057,Horas normalmente trabalhadas por semana nos outros trabalhos,pessoa,número,Trabalho
+PETR0084,Idade ao começar a trabalhar,pessoa,número,Trabalho
+PECP0003,Idade em anos,pessoa,número,Características da pessoa
+PETR0087,Interesse em trabalhar,pessoa,categoria,Trabalho
+PETR0061,Interesse em trabalhar mais horas que as normalmente trabalhadas por semana,pessoa,categoria,Trabalho
+PETR0088,Intervalo de tempo até o início do novo trabalho,pessoa,categoria,Trabalho
+PETR0008,"Intervalo de tempo, em meses, até o início do novo trabalho",pessoa,número,Trabalho
+PETR0090,"Intervalo de tempo sem trabalho, enquanto tenta conseguir trabalho,",pessoa,categoria,Trabalho
+PETR0025,"Jornada, entre 10 horas da noite e 5 horas da manhã, do trabalho secundário",pessoa,categoria,Trabalho
+PETR0024,"Jornada, entre 5 horas da manhã e 10 horas da noite, do trabalho secundário",pessoa,categoria,Trabalho
+PECP0007,Mês de nascimento,pessoa,número,Características da pessoa
+DOCA0003,Moradores,domicílio,número,Características do domicílio
+PETR0082,Motivo da saída do último trabalho,pessoa,categoria,Trabalho
+PETR0050,Motivo do afastamento temporário do trabalho remunerado,pessoa,categoria,Trabalho
+PETR0085,Motivo do afastamento temporário do trabalho remunerado,pessoa,texto,Trabalho
+PETR0077,Motivo principal para não ter procurado trabalho,pessoa,categoria,Trabalho
+PETR0079,Motivo principal para não trabalhar na semana,pessoa,categoria,Trabalho
+PETR0067,Motivo principal para ter procurado outro trabalho,pessoa,categoria,Trabalho
+PETR0098,Ocupação no trabalho principal,pessoa,código,Trabalho
+PETR0099,Ocupação no trabalho principal,pessoa,texto,Trabalho
+PETR0009,Ocupação no trabalho secundário,pessoa,código,Trabalho
+PEED0006,Organização do curso superior frequentado,pessoa,categoria,Educação
+PEED0012,Organização do curso superior frequentado anteriormente,pessoa,categoria,Educação
+PETR0073,"Pessoas ocupadas, de 1 a 5, na empresa",pessoa,número,Trabalho
+PETR0102,"Pessoas ocupadas, de 11 a 50, na empresa",pessoa,número,Trabalho
+PETR0074,"Pessoas ocupadas, de 6 a 10, na empresa",pessoa,número,Trabalho
+PETR0072,Pessoas ocupadas na empresa,pessoa,categoria,Trabalho
+DOCA0088,Pessoas responsáveis,domicílio,categoria,Características do domicílio
+PETR0101,Posição na ocupação do trabalho principal,pessoa,categoria,Trabalho
+PETR0112,Posição na ocupação do trabalho secundário,pessoa,categoria,Trabalho
+PETR0066,Providência principal para conseguir outro trabalho,pessoa,categoria,Trabalho
+PETR0076,Providência principal para conseguir trabalho no período de 30 dias,pessoa,categoria,Trabalho
+PETR0080,Realização de trabalho no período de 358 dias,pessoa,categoria,Trabalho
+PETR0081,Realização de trabalho no período de 84 dias,pessoa,categoria,Trabalho
+PERE0028,Recebimento de cartão ou tíquete alimentação no trabalho principal,pessoa,categoria,Rendimento
+PERE0055,Recebimento de cartão ou tíquete alimentação no trabalho secundário,pessoa,categoria,Rendimento
+PERE0027,Recebimento de cartão ou tíquete transporte no trabalho principal,pessoa,categoria,Rendimento
+PERE0053,Recebimento de cartão ou tíquete transporte no trabalho secundário,pessoa,categoria,Rendimento
+PERE0026,Recebimento de cartão ou tíquete transporte ou alimentação no trabalho principal,pessoa,categoria,Rendimento
+PERE0052,Recebimento de cartão ou tíquete transporte ou alimentação no trabalho secundário,pessoa,categoria,Rendimento
+PEED0020,Rede administrativa da escola frequentada,pessoa,categoria,Educação
+PERE0013,"Rendimento bruto, em dinheiro, do trabalho principal",pessoa,categoria,Rendimento
+PERE0048,"Rendimento bruto, em dinheiro, do trabalho secundário",pessoa,categoria,Rendimento
+PERE0073,"Rendimento bruto, em dinheiro, do trabalho secundário",pessoa,valor em reais,Rendimento
+PERE0067,"Rendimento bruto, em dinheiro, dos outros trabalhos",pessoa,categoria,Rendimento
+PERE0068,"Rendimento bruto, em dinheiro, dos outros trabalhos",pessoa,valor em reais,Rendimento
+PERE0018,"Rendimento bruto, em produtos ou mercadorias, do trabalho principal",pessoa,categoria,Rendimento
+PERE0017,"Rendimento bruto, em produtos ou mercadorias, do trabalho principal",pessoa,valor em reais,Rendimento
+PERE0051,"Rendimento bruto, em produtos ou mercadorias, do trabalho secundário",pessoa,valor em reais,Rendimento
+PERE0050,"Rendimento bruto, em produtos ou mercadorias, do trabalho secundário",pessoa,categoria,Rendimento
+PERE0070,"Rendimento bruto, em produtos ou mercadorias, dos outros trabalhos",pessoa,categoria,Rendimento
+PERE0071,"Rendimento bruto, em produtos ou mercadorias, dos outros trabalhos",pessoa,valor em reais,Rendimento
+PERE0003,"Rendimento bruto mensal habitual, em dinheiro, do trabalho principal",pessoa,categoria,Rendimento
+PERE0004,"Rendimento bruto mensal habitual, em dinheiro, do trabalho principal",pessoa,valor em reais,Rendimento
+PERE0074,"Rendimento bruto mensal habitual, em dinheiro, do trabalho secundário",pessoa,valor em reais,Rendimento
+PERE0033,"Rendimento bruto mensal habitual, em dinheiro, do trabalho secundário",pessoa,categoria,Rendimento
+PERE0059,"Rendimento bruto mensal habitual, em dinheiro, dos outros trabalhos",pessoa,categoria,Rendimento
+PERE0060,"Rendimento bruto mensal habitual, em dinheiro, dos outros trabalhos",pessoa,valor em reais,Rendimento
+PERE0007,"Rendimento bruto mensal habitual, em produtos ou mercadorias, do trabalho principal",pessoa,valor em reais,Rendimento
+PERE0006,"Rendimento bruto mensal habitual, em produtos ou mercadorias, do trabalho principal",pessoa,categoria,Rendimento
+PERE0036,"Rendimento bruto mensal habitual, em produtos ou mercadorias, do trabalho secundário",pessoa,categoria,Rendimento
+PERE0075,"Rendimento bruto mensal habitual, em produtos ou mercadorias, do trabalho secundário",pessoa,valor em reais,Rendimento
+PERE0062,"Rendimento bruto mensal habitual, em produtos ou mercadorias, dos outros trabalhos",pessoa,categoria,Rendimento
+PERE0063,"Rendimento bruto mensal habitual, em produtos ou mercadorias, dos outros trabalhos",pessoa,valor em reais,Rendimento
+PERE0030,Rendimento recebido em cartão ou tíquete alimentação no trabalho principal,pessoa,valor em reais,Rendimento
+PERE0056,Rendimento recebido em cartão ou tíquete alimentação no trabalho secundário,pessoa,valor em reais,Rendimento
+PERE0029,Rendimento recebido em cartão ou tíquete transporte no trabalho principal,pessoa,valor em reais,Rendimento
+PERE0054,Rendimento recebido em cartão ou tíquete transporte no trabalho secundário,pessoa,valor em reais,Rendimento
+PETR0106,Seção da atividade do trabalho principal,pessoa,categoria,Trabalho
+PECP0002,Sexo,pessoa,categoria,Características da pessoa
+PETR0070,Sócios da empresa,pessoa,categoria,Trabalho
+PETR0071,"Sócios, de 1 a 5, da empresa",pessoa,número,Trabalho
+PETR0100,Tarefas ou atribuições principais do trabalho principal,pessoa,texto,Trabalho
+PETR0010,Tarefas ou atribuições principais do trabalho secundário,pessoa,código,Trabalho
+PETR0095,"Tempo de afastamento, de 1 a 2 anos, do trabalho remunerado",pessoa,quantidade,Trabalho
+PETR0094,"Tempo de afastamento, de 1 mês a menos de 1 ano, do trabalho remunerado",pessoa,quantidade,Trabalho
+PETR0096,"Tempo de afastamento, de 2 anos ou mais, do trabalho remunerado",pessoa,quantidade,Trabalho
+PETR0086,Tempo de afastamento do trabalho remunerado,pessoa,categoria,Trabalho
+PETR0108,Tipo de trabalho não remunerado em ajuda a morador do domicílio ou parente,pessoa,categoria,Trabalho
+PETR0019,"Trabalhadores não remunerados, de 1 a 5, em ajuda no trabalho",pessoa,número,Trabalho
+PETR0023,"Trabalhadores não remunerados, de 6 a 10, em ajuda no trabalho",pessoa,número,Trabalho
+PETR0018,Trabalhadores não remunerados em ajuda no trabalho,pessoa,categoria,Trabalho
+PETR0097,Trabalhos,pessoa,categoria,Trabalho
+PEED0015,"Último ano, semestre, ou série concluída com aprovação no curso frequentado anteriormente",pessoa,categoria,Educação
